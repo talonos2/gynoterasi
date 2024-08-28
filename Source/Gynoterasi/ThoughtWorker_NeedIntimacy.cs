@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Talonos.Monstergirls;
 using Verse;
 
-namespace Talonos.Monstergirls
+namespace Gynoterasi
 {
     /*
     public class ThoughtWorker_NeedIntimacy : ThoughtWorker

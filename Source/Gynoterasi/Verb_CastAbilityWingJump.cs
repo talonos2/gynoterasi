@@ -5,7 +5,7 @@ using UnityEngine;
 using Verse;
 using static Verse.PawnCapacityUtility;
 
-namespace Talonos.Monstergirls
+namespace Gynoterasi
 {
     /*
     public class Verb_CastAbilityWingJump : Verb_CastAbility

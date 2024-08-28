@@ -1,6 +1,6 @@
 ﻿using Verse;
 
-namespace Talonos.Monstergirls
+namespace Gynoterasi
 {
     /*
     public class ThoughtWorker_GenePossessiveXphilia : ThoughtWorker
