@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Biotech Monstergirls: The Gynoterasi</name>
+    <author>Talonos</author>
+    <packageId>talonos.gynoterasi.monstergirls</packageId>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+
+    <description>Adds a monstergirl race called the Gynoterasi. There are five monstergirl subspecies: Hellhounds, Harpies, Kitsune, Gryphons, and Dragons, each implemented as a seperate xenotype. Adds new genes to support these xenotypes, many of which can also be used by humans. Depends on Humanoid Alien Races. Heavy WIP!
+    </description>
+
+    <modVersion>0.0.1</modVersion>
+
+    <modDependencies>
+        <li>
+            <packageId>JintuziLamian.Gene.XenoCosmetic</packageId>
+            <displayName>AFU Cosmetic Gene Expanded</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2880942803</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>erdelf.HumanoidAlienRaces</packageId>
+            <displayName>Humanoid Alien Races</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=839005762</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+            <displayName>Vanilla Expanded Framework</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+            <downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+        </li>
+    </modDependencies>
+
+
+    <loadAfter>
+        <li>JintuziLamian.Gene.XenoCosmetic</li>
+        <li>erdelf.HumanoidAlienRaces</li>
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+    </loadAfter>
+
+    <incompatibleWith>
+    </incompatibleWith>
+</ModMetaData>

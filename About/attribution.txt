@@ -1,0 +1,2 @@
+- Some icons (Ability, Gene, etc) were generated using Lorc's icons as a base. (https://game-icons.net/)
+- The Harpy's wings come from Syrchallis' Harpies mod, which is MIT licensed so I'm free to use them. (https://github.com/Syrchalis/Harpy)
