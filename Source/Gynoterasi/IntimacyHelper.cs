@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Verse;
 
 namespace Gynoterasi
-{/*
+{
     public static class IntimacyHelper
     {
         internal static float GetXphiliaModifier(Pawn possessor, Pawn target)
         {
-            if (possessor.genes.HasGene(DefDatabase<GeneDef>.GetNamed("GenePossessiveAndrophilia")))
+            if (possessor.genes.HasActiveGene(DefDatabase<GeneDef>.GetNamed("GT_GenePossessiveAndrophilia")))
             {
                 if (target.gender == Gender.Male)
                 {
@@ -23,7 +23,7 @@ namespace Gynoterasi
                     return 0.67f;
                 }
             }
-            if (possessor.genes.HasGene(DefDatabase<GeneDef>.GetNamed("GenePossessiveGynophilia")))
+            if (possessor.genes.HasActiveGene(DefDatabase<GeneDef>.GetNamed("GT_GenePossessiveGynophilia")))
             {
                 if (target.gender == Gender.Male)
                 {
@@ -168,6 +168,17 @@ namespace Gynoterasi
             }
             return false;
         }
+
+        /// <summary>
+        /// Multiplies the *missing* part of a value from 0% to 100% by a given value. For instance, multiplying the *missing* part of 60* by 75% returns
+        /// 70%, because you're missing 40%, which you multiply by 75%, giving 30%, and if you're missing 30% you must have 70%.
+        /// </summary>
+        /// <param name="startingPercent">The start</param>
+        /// <param name="percentToMultiplyMissingPartBy"></param>
+        /// <returns></returns>
+        public static float MultiplyAmountMissingBy(float startingPercent, float percentToMultiplyMissingPartBy)
+        {
+            return 1 - ((1 - startingPercent) * percentToMultiplyMissingPartBy);
+        }
     }
-    */
 }

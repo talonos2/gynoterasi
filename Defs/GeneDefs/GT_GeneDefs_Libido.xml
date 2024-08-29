@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneCategoryDef>
+    <defName>Gynoterasic</defName>
+    <label>gynoterasic</label>
+    <displayPriorityInXenotype>4000</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneDef>
+    <defName>GT_DyadicHormonalRegulation</defName>
+    <label>dyadic regulation</label>
+    <description>A signature gene of the Gynoterasi. The carriers have been genetically engineered to depend on the oxytocin from romantic activities (and from lovin' in particular) as a core part of their system's hormonal regulation mechanisms. One can only assume less-than-wholesome intent on the part of the genetic engineer who first invented this gene.\n\nThis gene adds an "intimacy" need which depletes over time. It can most easily be replenished by engaging in lovin' with a high-relationshp partner, though romance attempts or even engaging in deep talks can alleviate some of this need. Sleeping consistently in the same bed as a high-relationship partner or spouse is usually enough to keep this need high. Failure to meet this need causes mood instability and increased physical and romantic agression. To help meet this need, carriers of the Dyadic Regulation gene all have some level of genetically-determined bisexuality, though individuals vary.\n\nIdeoligious Concerns: Carriers that forgo lovin' due to an ideological tenant, either temporarily or permanently, are in for a hard time. In such ideoligeons, carriers of the Dyadic Regulation gene are seen either as demons whose inner urges will never allow them to be fully clean, or as saints who have overcome more inner moral trials than most baseline humans can ever imagine. Carriers in ideoligons that require certain body parts be covered will consider those body parts to be sexualized and alluring, and are enticed instead of repulsed by colonists who expose them.</description>
+    <forcedTraits>
+      <li>
+        <def>Bisexual</def>
+      </li>
+    </forcedTraits>
+    <displayCategory>Gynoterasic</displayCategory>
+    <iconPath>UI/Icons/Genes/Gene_DyadicHormonalRegulation</iconPath>
+    <causesNeed>Intimacy</causesNeed>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>1000</displayOrderInCategory>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>2</biostatMet>
+    <minAgeActive>16</minAgeActive>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>lust</symbol></li>
+        <li><symbol>nympho</symbol></li>
+        <li><symbol>bond</symbol></li>
+        <li><symbol>love</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>mate</symbol></li>
+        <li><symbol>kin</symbol></li>
+        <li><symbol>spouse</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+    <exclusionTags>
+      <li>Libido</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>GT_GenePossessiveAndrophilia</defName>
+    <label>possessive androphilia</label>
+    <description>Carriers of this gene have been genetically engineered to be entralled and fascinated with males, almost to the point of obsession. They become depressed when no males are around. Conversely, if too many males are around, they become distracted, unable to focus, and irritable. The magic ratio seems to be one male to four females. They have a genetic proclivity to view males in the most favorable way possible, and if a carrier also has the Dyadic Regulation gene, interactions with males will fill their intimacy need twice as quickly as females.\n\nThis gene was probably meant to make the Gynoterasi feel at home in large polygymous relationships. Sadly, most sociologists blame this gene for the Gynoterasi's inability to integrate into mainstream society's half-male population after they gained their freedom. This gene is why the Gynoterasi formed their own female-dominant faction... and why they go on regular "man-hunts" to kidnap males to keep as trophies.\n\nMales can carry this gene, but it deactivates and becomes dormant in such cases. This decision was likely intentional, to prevent debilitating autophilia.</description>
+    <displayCategory>Gynoterasic</displayCategory>
+    <iconPath>UI/Icons/Genes/Gene_PossessiveAndrophilia</iconPath>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>1000</displayOrderInCategory>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+    <minAgeActive>14</minAgeActive>
+    <modExtensions>
+      <li Class="VanillaGenesExpanded.GeneExtension">            
+        <hediffsToBodyParts>
+          <li>
+            <hediff>AndrophilicBalance</hediff>
+            <bodyparts>
+              <li>Brain</li>
+            </bodyparts>
+          </li>
+        </hediffsToBodyParts>
+      </li>
+    </modExtensions>
+    <exclusionTags>
+      <li>XPhilia</li>
+    </exclusionTags>
+    <suppressedTraits>
+      <li>
+        <def>Gay</def>
+      </li>
+      <li>
+        <def>DislikesMen</def>
+      </li>
+    </suppressedTraits>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>GT_GenePossessiveGynophilia</defName>
+    <label>possessive gynophilia</label>
+    <description>Carriers of this gene have been genetically engineered to be entralled and fascinated with females, almost to the point of obsession. They become depressed when no females are around. Conversely, if too many females are around, they become distracted, unable to focus, and irritable. The magic ratio seems to be one female to four males. They have a genetic proclivity to view females in the most favorable way possible, and if a carrier also has the Dyadic Regulation gene, interactions with females will fill their intimacy need twice as quickly as males.\n\nThis gene is obviously a variation of the Gynoterasi's signature Possessive Androphilia gene, but it's creator, and their motivation, are an utter mystery.\n\nFemales can carry this gene, but it deactivates and becomes dormant in such cases.</description>
+    <displayCategory>Gynoterasic</displayCategory>
+    <iconPath>UI/Icons/Genes/Gene_PossessiveGynophilia</iconPath>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>1000</displayOrderInCategory>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+    <minAgeActive>14</minAgeActive>
+    <modExtensions>
+      <li Class="VanillaGenesExpanded.GeneExtension">            
+        <hediffsToBodyParts>
+          <li>
+            <hediff>GynophilicBalance</hediff>
+            <bodyparts>
+              <li>Brain</li>
+            </bodyparts>
+          </li>
+        </hediffsToBodyParts>
+      </li>
+    </modExtensions>
+    <exclusionTags>
+      <li>XPhilia</li>
+    </exclusionTags>
+    <suppressedTraits>
+      <li>
+        <def>Gay</def>
+      </li>
+      <li>
+        <def>DislikesWomen</def>
+      </li>
+    </suppressedTraits>
+  </GeneDef>
+
+  <!--<GeneDef>
+    <defName>DominantOvum</defName>
+    <label>dominant ovum</label>
+    <description>A signature gene of the Gynoterasi. A carrier of this gene, if female, will always pass on all her genes to any children she has, and her children will never inherit any of the father's genes (unless he has the "Dominant Sperm" gene). Males can carry this gene, but it is dormant in them.\n\nThe gynoterasi are entirely female and rely on males of other xenotypes to produce children. This gene ensures that the gynoterasi will propogate themselves instead of producing children with an increasingly diluted bloodline with each successive generation.</description>
+    <displayCategory>Gynoterasic</displayCategory>
+    <iconPath>UI/Icons/Genes/Gene_DominantOvum</iconPath>
+    <displayOrderInCategory>1000</displayOrderInCategory>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+    <exclusionTags>
+      <li>Fertility</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>DominantSperm</defName>
+    <label>dominant sperm</label>
+    <description>A carrier of this gene, if male, will always pass on all his genes to any children he sires, and this child will never inherit any of the mother's genes (unless she has the "Dominant Eggs" gene.) Females can carry this gene, but it is dormant in them.</description>
+    <displayCategory>Gynoterasic</displayCategory>
+    <iconPath>UI/Icons/Genes/Gene_DominantSperm</iconPath>
+    <displayOrderInCategory>1000</displayOrderInCategory>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>0</biostatMet>
+    <exclusionTags>
+      <li>Fertility</li>
+    </exclusionTags>
+  </GeneDef>-->
+
+</Defs>

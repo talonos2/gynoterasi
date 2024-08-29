@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GynoterasiHeadiffExtensions.cs" />
+    <Compile Include="HarmonyPatches.cs" />
     <Compile Include="IntimacyHelper.cs" />
     <Compile Include="Hediff_PossessiveXPhilia.cs" />
     <Compile Include="Thoughtworker_GenePossessiveGynophilia.cs" />
